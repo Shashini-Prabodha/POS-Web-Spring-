@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pos">
+    <output-path>$PROJECT_DIR$/out/artifacts/pos</output-path>
+    <root id="archive" name="pos.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="POS_System(Spring)" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.20" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/lk/sp/pos/lib/mysql-connector-java-8.0.20.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="POS_System(Spring)/web/Web" />
+    </root>
+  </artifact>
+</component>
